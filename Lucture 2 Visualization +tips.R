@@ -74,8 +74,9 @@ y = c(y1, y2)
 dat <- data.frame(cond = z, xvar = x, yvar = y)
 ggplot(dat, aes(x=xvar, y=yvar)) + geom_point(shape=1)
 ggplot(dat, aes(x=xvar, y=yvar)) + geom_text(label=dat$cond)
-
-#====================================How to Lie with Data Visualization</small>
+#=======================================================================================================
+#====================================How to Lie with Data Visualization=================================
+#=======================================================================================================
 #Case 1
 #a.Truncated Y-Axis 
   

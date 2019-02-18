@@ -1,0 +1,184 @@
+#1. Histogram
+
+library(ggplot2)
+summary(diamonds)
+data(diamonds)
+str(diamonds)
+ggplot(diamonds, aes(x=price))+geom_histogram()
+
+
+#2. Bar plot
+
+ucba<-as.data.frame(UCBAdmissions)
+head(ucba)
+ggplot(ucba, aes (x=Gender, y=Freq, fill=Admit))+geom_bar(stat="identity", position="fill")+
+  labs(y="Probs", title="Admitted/Rejected by gender")
+prop.table(xtabs(Freq~Gender+Admit, data=ucba),1)
+
+ggplot(ucba, aes (x=Gender, y=Freq, fill=Admit))+geom_bar(stat="identity", position="fill")+
+  facet_grid(~Dept)+
+  labs(y="Probs", title="Admitted/Rejected by gender and department")
+
+
+#3. Box plot
+
+data("airquality")
+head(airquality, n=5)
+ggplot(airquality, aes(x=factor(Month), y=Temp))+geom_boxplot()+
+  xlab("Month")+ggtitle("Temperature by moth")
+
+
+
+#4. Scatter plot
+
+ggplot(diamonds, aes(x=carat, y=price))+geom_point(col="coral", alpha=0.4)+
+  geom_vline(xintercept = mean(diamonds$price), linetype= "dashed", col="red")+
+  geom_hline(yintercept = mean(diamonds$carat), linetype= "dashed", col="blue")
+
+
+
+#5. Chernoff faces
+
+library(aplpack)
+
+faces(mtcars, labels = rownames(mtcars),cex = 1)
+
+faces(mtcars[c(1:9),])
+
+
+
+#Anscombe's quarter
+
+
+library(ggpubr)
+data("anscombe")
+anscombe
+cor(anscombe)
+
+
+#Simpson's Paradox 
+
+z = c("math","math",
+      "math","math",
+      "chemistry", "chemistry","chemistry", 
+      "chemistry")
+
+x1 = c( 18, 19, 15, 20)#mat score
+y1 = c( 1, 3, 4, 9 )#chem score
+
+x2 = c( 10, 8, 15, 5)
+y2 = c( 20, 19, 20, 17 )
+
+x = c(x1, x2)
+y = c(y1, y2)
+dat <- data.frame(cond = z, xvar = x, yvar = y)
+ggplot(dat, aes(x=xvar, y=yvar)) + geom_point(shape=1)
+ggplot(dat, aes(x=xvar, y=yvar)) + geom_text(label=dat$cond)
+
+#====================================How to Lie with Data Visualization</small>
+#Case 1
+#a.Truncated Y-Axis 
+  
+#the number of people who likes Mathematics OR Chemistry
+x<-c("Math", "Chemistry")
+y<-c(60,40)
+df<-data.frame(x,y)
+ggplot(data = df, mapping = aes(x = x, y = y, fill = x)) +
+  geom_bar(stat = "identity") +
+  coord_cartesian(ylim = c(20, 70))
+#real
+ggplot(data = df, mapping = aes(x = x, y = y, fill = x)) +
+  geom_bar(stat = "identity") 
+
+#b.Truncated X-Axis 
+  
+volcanodust <- scan("http://robjhyndman.com/tsdldata/annual/dvi.dat", skip=1)
+x1<-c(1500:1969)
+df1<-data.frame(x1, volcanodust)
+ggplot(df1, aes(x=x1, y=volcanodust))+geom_line(color="purple1", size=0.8)+
+  scale_x_continuous(limits = c(1813,1815))
+ggplot(df1, aes(x=x1, y=volcanodust))+geom_line(color="purple1", size=0.8)+
+  scale_x_continuous(limits = c(1810,1850))
+#c.Truncated Y-Axis (if it is needed) 
+
+x2<-c( 2015.1, 2015.2,2015.3,2015.4,2015.5,2015.6,2015.7, 2015.8,2015.9)
+y2<-c(981, 990, 1000, 995, 985, 980, 975, 991, 985)
+df2<-data.frame(x2,y2)
+ggplot(df2, aes(x=x2, y=y2))+ geom_bar(stat = "identity", alpha=0.6,fill="royalblue1")
+
+ggplot(df2, aes(x=x2, y=y2))+
+  geom_line( color='steelblue', size=0.5, alpha=0.7)+
+  geom_point(color="lightcoral")+
+  scale_y_continuous(limits = c(950, 1030))
+
+#Case 3(2). Wrong form
+#Comparison
+  
+dfp1 <- data.frame(
+  group = c("Chemistry", "History", "Math"),
+  value = c(15, 15, 70)
+)
+dfp2 <- data.frame(
+  group = c("Chemistry", "History", "Math"),
+  value = c(20, 30, 50)
+)
+
+gp1<-ggplot(dfp1, aes(x="", y=value, fill=group))+
+  geom_bar(width = 1, stat = "identity")+ coord_polar("y", start=0)
+gp2<-ggplot(dfp2, aes(x="", y=value, fill=group))+
+  geom_bar(width = 1, stat = "identity")+ coord_polar("y", start=0)
+ggarrange(gp1,gp2)
+
+#A lot of categories
+  
+  
+dfp3 <- data.frame(
+  group = c("1", "2", "3", "4", "5", "6", "7","8", "9", "10" ),
+  value = c(10, 5, 5, 15, 10, 7, 13, 5, 4, 15))
+
+ggplot(dfp3, aes(x="", y=value, fill=group))+
+  geom_bar(width = 1, stat = "identity")+ coord_polar("y", start=0)
+
+<small>Do not use 3d</small>
+  <br><h2>GGplot<br><h2>
+  
+  
+#There is no difference between them
+# Map cyl to size
+gg1<-ggplot(mtcars, aes(x=wt, y = mpg, size=cyl))+
+  geom_point()
+# Map cyl to alpha
+gg2<-ggplot(mtcars, aes(x=wt, y = mpg, alpha=cyl))+
+  geom_point()
+# Map cyl to shape 
+gg3<-ggplot(mtcars, aes(x=wt, y = mpg,shape=factor(cyl)))+
+  geom_point()
+# Map cyl to label
+gg4<-ggplot(mtcars, aes(x=wt, y = mpg,label=cyl))+
+  geom_point()+
+  geom_text()
+ggarrange(gg1,gg2,gg3,gg4)
+
+
+#Notice how this cancels out the colors given to the points by the number of cylinders!
+ggplot(mtcars, aes(x=wt, y=mpg, color=cyl))+
+  geom_point(col="red")
+# Expand to draw text with label rownames(mtcars) and color red
+ggplot(mtcars, aes(x = wt, y = mpg, fill = cyl)) +
+  geom_text( label= rownames(mtcars), color="red")
+#if we want to skip y variable (1d)
+ggplot(mtcars, aes(x = mpg, y =0)) +
+  geom_point(size=3)
+ggplot(mtcars, aes(x = mpg, y =0)) +
+  geom_point(size=3, position="jitter")
+
+
+#Cleaning
+
+
+k<-data.frame(mtcars[,c(2:5)])
+head(k)
+xyz<-c(1,2,3,4,NA)
+is.na(xyz)
+mean(xyz)
+mean(xyz, na.rm=TRUE)

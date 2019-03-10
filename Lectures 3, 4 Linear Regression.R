@@ -2,7 +2,7 @@ library(ggplot2)
 library(ggpubr)
 housedata<-read.csv("housing.csv")
 str(housedata)
-
+ 
 #Preparing the data
 
 housedata$waterfront<-factor(housedata$waterfront, levels=c(0,1), labels=c("does_not_look", "looks_at"))

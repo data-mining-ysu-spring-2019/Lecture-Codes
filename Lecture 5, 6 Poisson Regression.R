@@ -58,7 +58,8 @@ pchisq(chi_sq, df = df.residual(mod1), lower.tail = F)
 dev_chisq <- sum(resid(mod1, type = "deviance")^2)
 dev_chisq
 pchisq(dev_chisq, df = df.residual(mod), lower.tail = F)
-1-mod1$deviance/mod1$null.deviance
+
+
 var(ar$art)
 mean(ar$art)
 str(ar)

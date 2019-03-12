@@ -1,3 +1,6 @@
+# Usefull links
+# https://stats.idre.ucla.edu/r/dae/poisson-regression/
+# https://ncss-wpengine.netdna-ssl.com/wp-content/themes/ncss/pdf/Procedures/NCSS/Poisson_Regression.pdf
 
 library(ggplot2) 
 library(dplyr)

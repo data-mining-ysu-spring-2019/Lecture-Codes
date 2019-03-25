@@ -1,0 +1,602 @@
+affairs,gender,age,yearsmarried,children,religiousness,education,occupation,rating
+0,male,37,10,no,3,masters degree,7,4
+0,female,27,4,no,4,some college,6,4
+0,female,32,15,yes,1,high school,1,4
+0,male,57,15,yes,5,masters degree,6,5
+0,male,22,0.75,no,2,some graduate school,6,3
+0,female,32,1.5,no,2,some graduate school,5,5
+0,female,22,0.75,no,2,high school,1,3
+0,male,57,15,yes,2,some college,4,4
+0,female,32,15,yes,4,college graduate,1,2
+0,male,22,1.5,no,4,some college,4,5
+0,male,37,15,yes,2,advanced degree,7,2
+0,male,27,4,yes,4,masters degree,6,4
+0,male,47,15,yes,5,some graduate school,6,4
+0,female,22,1.5,no,2,some graduate school,5,4
+0,female,27,4,no,4,some college,5,4
+0,female,37,15,yes,1,some graduate school,5,5
+0,female,37,15,yes,2,masters degree,4,3
+0,female,22,0.75,no,3,college graduate,5,4
+0,female,22,1.5,no,2,college graduate,5,5
+0,female,27,10,yes,2,some college,1,5
+0,female,22,1.5,no,2,college graduate,5,5
+0,female,22,1.5,no,2,college graduate,5,5
+0,female,27,10,yes,4,college graduate,5,4
+0,female,32,10,yes,3,some college,1,5
+0,male,37,4,yes,2,advanced degree,6,4
+0,female,22,1.5,no,2,masters degree,5,5
+0,female,27,7,no,4,college graduate,1,5
+0,male,42,15,yes,5,advanced degree,6,4
+0,male,27,4,yes,3,college graduate,5,5
+0,female,27,4,yes,3,some graduate school,5,4
+0,male,42,15,yes,4,advanced degree,6,3
+0,female,22,1.5,no,3,college graduate,5,5
+0,male,27,0.417,no,4,some graduate school,6,4
+0,female,42,15,yes,5,some college,5,4
+0,male,32,4,yes,1,masters degree,6,4
+0,female,22,1.5,no,4,college graduate,5,3
+0,female,42,15,yes,3,high school,1,4
+0,female,22,4,no,4,some graduate school,5,5
+0,male,22,1.5,yes,1,some college,3,5
+0,female,22,0.75,no,3,college graduate,1,5
+0,male,32,10,yes,5,advanced degree,6,5
+0,male,52,15,yes,5,masters degree,6,3
+0,female,22,0.417,no,5,some college,1,4
+0,female,27,4,yes,2,masters degree,6,1
+0,female,32,7,yes,5,some graduate school,5,3
+0,male,22,4,no,3,college graduate,5,5
+0,female,27,7,yes,4,masters degree,6,5
+0,female,42,15,yes,2,masters degree,5,4
+0,male,27,1.5,yes,4,college graduate,3,5
+0,male,42,15,yes,2,advanced degree,6,4
+0,female,22,0.75,no,5,some college,3,5
+0,male,32,7,yes,2,advanced degree,6,4
+0,male,27,4,yes,5,advanced degree,6,5
+0,male,27,10,yes,4,advanced degree,6,4
+0,male,22,4,no,1,masters degree,5,5
+0,female,37,15,yes,4,some college,3,1
+0,male,22,1.5,yes,5,college graduate,4,4
+0,female,37,15,yes,4,some graduate school,1,5
+0,female,27,0.75,no,4,some graduate school,5,4
+0,male,32,10,yes,4,advanced degree,6,4
+0,female,47,15,yes,5,some college,7,2
+0,male,37,10,yes,3,advanced degree,6,4
+0,female,22,0.75,no,2,college graduate,5,5
+0,male,27,4,no,2,masters degree,4,5
+0,male,32,7,no,4,advanced degree,6,4
+0,male,42,15,yes,2,some graduate school,3,5
+0,male,37,10,yes,4,advanced degree,6,4
+0,female,47,15,yes,3,some graduate school,6,5
+0,female,22,1.5,no,5,college graduate,5,5
+0,female,27,1.5,no,2,college graduate,6,4
+0,female,27,4,no,3,some graduate school,5,5
+0,female,32,10,yes,5,some college,4,5
+0,female,22,0.125,no,2,high school,5,5
+0,male,47,15,yes,4,some college,4,3
+0,male,32,15,yes,1,some college,5,5
+0,male,27,7,yes,4,college graduate,5,5
+0,female,22,1.5,yes,3,college graduate,5,5
+0,male,27,4,yes,3,some graduate school,6,5
+0,female,22,1.5,no,3,college graduate,5,5
+0,male,57,15,yes,2,some college,7,2
+0,male,17.5,1.5,yes,3,masters degree,6,5
+0,male,57,15,yes,4,advanced degree,6,5
+0,female,22,0.75,no,2,college graduate,3,4
+0,male,42,4,no,4,some graduate school,3,3
+0,female,22,1.5,yes,4,high school,1,5
+0,female,22,0.417,no,1,some graduate school,6,4
+0,female,32,15,yes,4,some graduate school,5,5
+0,female,27,1.5,no,3,masters degree,5,2
+0,female,22,1.5,yes,3,some college,1,5
+0,female,37,15,yes,3,some college,1,4
+0,female,32,15,yes,4,some college,3,4
+0,male,37,10,yes,2,some college,5,3
+0,male,37,10,yes,4,college graduate,5,4
+0,male,57,15,yes,5,advanced degree,5,3
+0,male,27,0.417,no,1,college graduate,3,4
+0,female,42,15,yes,5,some college,1,5
+0,male,57,15,yes,3,college graduate,6,1
+0,male,37,10,yes,1,college graduate,6,4
+0,male,37,15,yes,3,some graduate school,5,5
+0,male,37,15,yes,4,advanced degree,6,5
+0,female,27,10,yes,5,some college,1,5
+0,male,37,10,yes,2,masters degree,6,4
+0,female,22,0.125,no,4,high school,4,5
+0,male,57,15,yes,5,advanced degree,6,5
+0,female,37,15,yes,4,masters degree,6,4
+0,male,22,4,yes,4,some college,6,4
+0,male,27,7,yes,4,masters degree,5,4
+0,male,57,15,yes,4,advanced degree,5,4
+0,male,32,15,yes,3,some college,6,3
+0,female,22,1.5,no,2,some college,5,4
+0,female,32,7,yes,4,some graduate school,1,5
+0,female,37,15,yes,4,some graduate school,6,5
+0,female,32,1.5,no,5,masters degree,5,5
+0,male,42,10,yes,5,advanced degree,7,4
+0,female,27,7,no,3,college graduate,5,4
+0,male,37,15,no,4,advanced degree,6,5
+0,male,37,15,yes,4,some college,3,2
+0,male,32,10,no,5,masters degree,6,4
+0,female,22,0.75,no,4,college graduate,1,5
+0,female,27,7,yes,4,high school,2,4
+0,female,27,7,yes,2,college graduate,2,5
+0,female,42,15,yes,5,masters degree,5,4
+0,male,42,15,yes,4,some graduate school,5,3
+0,female,27,7,yes,2,college graduate,1,2
+0,female,22,1.5,no,3,college graduate,5,5
+0,male,37,15,yes,5,advanced degree,6,5
+0,female,22,0.125,no,2,some college,4,5
+0,male,27,1.5,no,4,college graduate,5,5
+0,male,32,1.5,no,2,masters degree,6,5
+0,male,27,1.5,no,2,some graduate school,6,5
+0,female,27,10,yes,4,college graduate,1,3
+0,male,42,15,yes,4,masters degree,6,5
+0,female,27,1.5,no,2,college graduate,6,5
+0,male,27,4,no,2,masters degree,6,3
+0,female,32,10,yes,3,some college,5,3
+0,female,32,15,yes,3,masters degree,5,4
+0,female,22,0.75,no,2,masters degree,6,5
+0,female,37,15,yes,2,college graduate,1,4
+0,male,27,4,yes,4,advanced degree,5,5
+0,male,27,4,no,1,advanced degree,5,4
+0,female,27,10,yes,2,high school,1,4
+0,female,32,15,yes,5,masters degree,6,4
+0,male,27,7,yes,5,high school,5,3
+0,male,52,15,yes,2,masters degree,5,4
+0,male,27,4,no,3,advanced degree,6,3
+0,male,37,4,yes,1,masters degree,5,4
+0,male,27,4,yes,4,some college,5,4
+0,female,52,15,yes,5,high school,1,3
+0,female,57,15,yes,4,college graduate,6,4
+0,male,27,7,yes,1,college graduate,5,4
+0,male,37,7,yes,4,advanced degree,6,3
+0,male,22,0.75,no,2,some college,4,3
+0,male,32,4,yes,2,masters degree,5,3
+0,male,37,15,yes,4,advanced degree,6,3
+0,male,22,0.75,yes,2,some college,4,3
+0,male,42,15,yes,4,advanced degree,6,3
+0,female,52,15,yes,5,some graduate school,1,1
+0,female,37,15,yes,4,some college,1,2
+0,male,27,7,yes,4,some college,5,3
+0,male,32,4,yes,2,college graduate,5,5
+0,female,27,4,yes,2,masters degree,6,5
+0,female,27,4,yes,2,masters degree,5,5
+0,male,37,15,yes,5,masters degree,6,5
+0,female,47,15,yes,5,high school,5,4
+0,female,32,10,yes,3,some graduate school,1,4
+0,female,27,1.5,yes,4,some graduate school,1,2
+0,female,57,15,yes,2,masters degree,5,2
+0,female,22,1.5,no,4,some college,5,4
+0,male,42,15,yes,3,some college,3,4
+0,male,57,15,yes,4,grad school,2,2
+0,male,57,15,yes,4,advanced degree,6,5
+0,female,22,0.125,no,4,some college,4,5
+0,female,32,10,yes,4,some college,1,5
+0,female,42,15,yes,3,masters degree,5,4
+0,female,27,1.5,no,2,masters degree,6,5
+0,male,32,0.125,yes,2,masters degree,5,2
+0,female,27,4,no,3,college graduate,5,4
+0,female,27,10,yes,2,college graduate,1,4
+0,female,32,7,yes,4,college graduate,1,3
+0,female,37,15,yes,4,some college,5,4
+0,female,42,15,yes,5,some graduate school,6,2
+0,male,32,1.5,yes,4,some college,6,5
+0,female,32,4,yes,3,some graduate school,5,3
+0,female,37,7,no,4,masters degree,5,5
+0,female,22,0.417,yes,3,some college,3,5
+0,female,27,7,yes,4,some college,1,5
+0,male,27,0.75,no,3,college graduate,5,5
+0,male,27,4,yes,2,advanced degree,5,5
+0,male,32,10,yes,4,college graduate,4,5
+0,male,32,15,yes,1,some college,5,5
+0,male,22,0.75,no,3,some graduate school,4,5
+0,female,27,7,yes,4,some graduate school,1,4
+0,male,27,0.417,yes,4,advanced degree,5,4
+0,male,37,15,yes,4,advanced degree,5,4
+0,female,37,15,yes,2,some college,1,3
+0,male,22,4,yes,1,masters degree,5,4
+0,male,37,15,yes,4,some graduate school,5,3
+0,female,22,1.5,no,2,some college,4,5
+0,male,52,15,yes,4,some college,6,2
+0,female,22,1.5,no,4,some graduate school,5,5
+0,male,32,4,yes,5,some college,3,5
+0,male,32,4,yes,2,some college,3,5
+0,female,22,1.5,no,3,college graduate,6,5
+0,male,27,0.75,no,2,masters degree,3,3
+0,female,22,7,yes,2,some college,5,2
+0,female,27,0.75,no,2,some graduate school,5,3
+0,female,37,15,yes,4,high school,1,2
+0,female,22,1.5,no,1,some college,1,5
+0,female,37,10,no,2,high school,4,4
+0,female,37,15,yes,4,masters degree,5,3
+0,female,42,15,yes,3,high school,3,3
+0,male,22,4,no,2,masters degree,5,5
+0,male,52,7,yes,2,advanced degree,6,2
+0,male,27,0.75,no,2,some graduate school,5,5
+0,female,27,4,no,2,some graduate school,4,5
+0,male,42,1.5,no,5,advanced degree,6,5
+0,male,22,1.5,no,4,some graduate school,6,5
+0,male,22,4,no,4,some graduate school,5,3
+0,female,22,4,yes,1,some college,5,4
+0,male,37,15,yes,5,advanced degree,4,5
+0,female,37,10,yes,3,college graduate,6,3
+0,male,42,15,yes,4,some graduate school,6,5
+0,female,47,15,yes,4,some graduate school,5,5
+0,male,22,1.5,no,4,college graduate,5,4
+0,female,32,10,yes,3,high school,1,4
+0,female,22,7,yes,1,some college,3,5
+0,female,32,10,yes,4,some graduate school,5,4
+0,male,27,1.5,yes,2,college graduate,2,4
+0,male,37,15,yes,4,some college,5,5
+0,male,42,4,yes,3,some college,4,5
+0,female,37,15,yes,5,some college,5,4
+0,female,32,7,yes,4,some graduate school,5,5
+0,female,42,15,yes,4,masters degree,6,5
+0,male,27,4,no,4,masters degree,6,4
+0,male,22,0.75,no,4,masters degree,6,5
+0,male,27,4,yes,4,some college,5,3
+0,female,22,0.75,no,5,masters degree,1,5
+0,female,52,15,yes,5,grad school,5,5
+0,male,32,10,yes,3,some college,5,5
+0,female,37,15,yes,4,college graduate,4,4
+0,male,32,7,yes,2,advanced degree,5,4
+0,female,42,15,yes,3,masters degree,1,4
+0,male,32,15,yes,1,college graduate,5,5
+0,male,27,4,yes,3,masters degree,5,5
+0,female,32,15,yes,4,high school,3,4
+0,male,22,0.75,yes,3,some college,2,4
+0,female,22,1.5,no,3,college graduate,5,3
+0,female,42,15,yes,4,some college,3,5
+0,female,52,15,yes,3,college graduate,5,4
+0,male,37,15,yes,5,advanced degree,6,4
+0,female,47,15,yes,4,high school,2,3
+0,male,57,15,yes,2,advanced degree,6,4
+0,male,32,7,yes,4,some graduate school,5,5
+0,female,27,7,yes,4,some graduate school,1,4
+0,male,22,1.5,no,1,masters degree,6,5
+0,female,22,4,yes,3,grad school,1,4
+0,female,22,1.5,no,2,some college,1,5
+0,male,42,15,yes,2,advanced degree,6,4
+0,male,57,15,yes,4,grad school,2,4
+0,female,27,7,yes,2,masters degree,1,5
+0,female,22,4,yes,3,some college,1,5
+0,male,37,15,yes,4,some college,5,3
+0,male,32,7,yes,1,masters degree,6,4
+0,female,22,1.5,no,2,some college,5,5
+0,female,22,1.5,yes,3,high school,1,3
+0,male,52,15,yes,2,some college,5,5
+0,female,37,15,yes,2,some college,1,1
+0,female,32,10,yes,2,some college,5,5
+0,male,42,15,yes,4,advanced degree,4,5
+0,female,27,4,yes,3,masters degree,4,5
+0,male,37,15,yes,4,advanced degree,6,5
+0,male,27,1.5,no,3,masters degree,5,5
+0,female,22,0.125,no,2,college graduate,6,3
+0,male,32,10,yes,2,advanced degree,6,3
+0,female,27,4,no,4,masters degree,5,4
+0,female,27,7,yes,2,high school,5,1
+0,male,32,4,yes,5,masters degree,6,3
+0,female,37,15,yes,2,some graduate school,5,5
+0,male,47,15,no,4,advanced degree,6,4
+0,male,27,1.5,no,1,masters degree,5,5
+0,male,37,15,yes,4,advanced degree,6,4
+0,female,32,15,yes,4,masters degree,1,4
+0,female,32,7,yes,4,some graduate school,5,4
+0,female,42,15,yes,3,some college,1,3
+0,female,27,7,yes,3,college graduate,1,4
+0,male,27,1.5,no,3,college graduate,4,2
+0,male,22,1.5,no,3,college graduate,3,5
+0,male,27,4,yes,3,college graduate,4,2
+0,female,27,7,yes,3,high school,1,2
+0,female,37,15,yes,2,masters degree,5,4
+0,female,37,7,yes,3,some college,4,4
+0,male,22,1.5,no,2,college graduate,5,5
+0,male,37,15,yes,5,advanced degree,5,4
+0,female,22,1.5,no,4,college graduate,5,3
+0,female,32,10,yes,4,college graduate,1,5
+0,male,27,4,no,2,some graduate school,5,3
+0,female,22,0.417,no,4,some college,5,5
+0,female,27,4,no,2,masters degree,5,5
+0,male,37,15,yes,4,masters degree,5,3
+0,male,37,10,yes,5,advanced degree,7,4
+0,female,27,7,yes,2,some college,4,2
+0,male,32,4,yes,2,college graduate,5,5
+0,male,32,4,yes,2,college graduate,6,4
+0,male,22,1.5,no,3,masters degree,4,5
+0,female,22,4,yes,4,some college,3,4
+0,female,17.5,0.75,no,2,masters degree,5,4
+0,male,32,10,yes,4,advanced degree,4,5
+0,female,32,0.75,no,5,some college,3,3
+0,male,37,15,yes,4,some graduate school,5,3
+0,male,32,4,no,3,some college,4,5
+0,female,27,1.5,no,2,some graduate school,3,2
+0,female,22,7,yes,4,some college,1,5
+0,male,47,15,yes,5,some college,6,5
+0,male,27,4,yes,1,college graduate,4,4
+0,female,37,15,yes,5,some college,1,3
+0,male,42,4,yes,4,masters degree,5,5
+0,female,32,4,yes,2,some college,1,5
+0,male,52,15,yes,2,some college,7,4
+0,female,22,1.5,no,2,college graduate,1,4
+0,male,52,15,yes,4,high school,2,4
+0,female,22,0.417,no,3,some graduate school,1,5
+0,female,22,1.5,no,2,college graduate,5,5
+0,male,27,4,yes,4,advanced degree,6,4
+0,female,32,15,yes,4,some college,1,5
+0,female,27,1.5,no,2,college graduate,3,5
+0,male,32,4,no,1,advanced degree,6,5
+0,male,37,15,yes,3,advanced degree,6,4
+0,female,32,10,no,2,college graduate,6,5
+0,female,32,10,yes,5,some college,5,5
+0,male,37,1.5,yes,4,masters degree,5,3
+0,male,32,1.5,no,2,masters degree,4,4
+0,female,32,10,yes,4,some college,1,4
+0,female,47,15,yes,4,masters degree,5,4
+0,female,27,10,yes,5,high school,1,5
+0,male,27,4,yes,3,college graduate,4,5
+0,female,37,15,yes,4,high school,4,2
+0,female,27,0.75,no,4,college graduate,5,5
+0,female,37,15,yes,4,college graduate,1,5
+0,female,32,15,yes,3,college graduate,1,5
+0,female,27,10,yes,2,college graduate,1,5
+0,male,27,7,no,2,advanced degree,6,5
+0,female,37,15,yes,2,some college,1,3
+0,male,27,1.5,yes,2,some graduate school,4,4
+0,female,22,0.75,yes,2,some college,1,5
+0,male,22,4,yes,4,some college,2,4
+0,male,42,0.125,no,4,some graduate school,6,4
+0,male,27,1.5,yes,4,masters degree,6,5
+0,male,27,7,yes,3,college graduate,6,3
+0,female,52,15,yes,4,some college,1,3
+0,male,27,1.5,no,5,advanced degree,5,2
+0,female,27,1.5,no,2,college graduate,5,5
+0,female,27,1.5,no,3,some graduate school,5,5
+0,male,22,0.125,no,5,college graduate,4,4
+0,female,27,4,yes,4,college graduate,1,5
+0,female,27,4,yes,4,high school,1,5
+0,female,47,15,yes,2,some college,5,5
+0,female,32,15,yes,3,some college,5,3
+0,male,42,7,yes,2,college graduate,5,5
+0,male,22,0.75,no,4,college graduate,6,4
+0,male,27,0.125,no,3,advanced degree,6,5
+0,male,32,10,yes,3,advanced degree,6,5
+0,female,22,0.417,no,5,some college,4,5
+0,female,47,15,yes,5,some college,1,4
+0,female,32,10,yes,3,some college,1,5
+0,male,57,15,yes,4,some graduate school,5,5
+0,male,27,4,yes,3,advanced degree,6,5
+0,female,32,7,yes,4,some graduate school,1,5
+0,female,37,10,yes,4,college graduate,1,5
+0,female,32,10,yes,1,masters degree,1,4
+0,female,22,4,no,3,some college,1,4
+0,female,27,7,yes,4,some college,3,2
+0,male,57,15,yes,5,masters degree,5,2
+0,male,32,7,yes,2,masters degree,5,5
+0,female,27,1.5,no,4,some graduate school,1,3
+0,male,22,1.5,no,4,some college,5,5
+0,female,22,1.5,yes,4,some college,5,4
+0,female,32,7,yes,3,college graduate,1,5
+0,female,47,15,yes,3,college graduate,5,4
+0,female,22,0.75,no,3,college graduate,1,5
+0,female,22,1.5,yes,2,some college,5,5
+0,female,27,4,yes,1,college graduate,5,5
+0,male,52,15,yes,4,college graduate,5,5
+0,male,32,10,yes,4,advanced degree,6,5
+0,male,47,15,yes,4,college graduate,6,4
+0,female,27,7,yes,2,some college,1,2
+0,female,22,1.5,no,4,some college,4,5
+0,female,32,10,yes,2,college graduate,5,4
+0,female,22,0.75,no,2,college graduate,5,4
+0,female,22,1.5,no,2,college graduate,5,5
+0,female,42,15,yes,3,masters degree,6,4
+0,female,27,7,yes,5,some college,4,5
+0,male,42,15,yes,4,college graduate,4,4
+0,female,57,15,yes,3,masters degree,5,2
+0,male,42,15,yes,3,masters degree,6,2
+0,female,32,7,yes,2,some college,1,2
+0,male,22,4,no,5,high school,4,5
+0,female,22,1.5,no,1,college graduate,6,5
+0,female,22,0.75,no,1,some college,4,5
+0,female,32,15,yes,4,high school,1,5
+0,male,22,1.5,no,2,masters degree,5,3
+0,male,27,4,yes,5,some graduate school,2,5
+0,female,27,4,yes,4,high school,1,5
+0,male,42,15,yes,5,masters degree,5,4
+0,male,32,1.5,no,2,advanced degree,7,3
+0,male,57,15,no,4,grad school,3,1
+0,male,37,7,no,4,masters degree,5,5
+0,male,52,15,yes,2,some graduate school,5,4
+0,male,47,15,yes,4,some graduate school,6,5
+0,female,27,7,no,2,some graduate school,5,4
+0,female,27,7,yes,4,some college,5,5
+0,female,22,4,no,2,some college,3,3
+0,male,37,7,yes,2,advanced degree,6,5
+0,male,27,7,no,4,high school,4,3
+0,male,42,10,yes,4,masters degree,6,4
+0,female,22,1.5,no,3,some college,1,5
+0,female,22,4,yes,2,some college,1,3
+0,female,57,15,no,4,advanced degree,6,5
+0,male,37,15,yes,4,some college,4,3
+0,female,27,7,yes,3,masters degree,5,5
+0,female,17.5,10,no,4,some college,4,5
+0,male,22,4,yes,4,college graduate,5,5
+0,female,27,4,yes,2,college graduate,1,4
+0,female,37,15,yes,2,some college,5,1
+0,female,22,1.5,no,5,some college,1,4
+0,male,27,7,yes,2,advanced degree,5,4
+0,male,27,4,yes,4,some college,5,5
+0,male,22,0.125,no,1,college graduate,3,5
+0,female,27,7,yes,4,some college,1,4
+0,female,32,15,yes,5,college graduate,5,3
+0,male,32,10,yes,4,masters degree,5,4
+0,female,32,15,yes,2,some college,3,4
+0,female,22,1.5,no,3,some graduate school,5,5
+0,male,27,4,yes,4,some graduate school,4,4
+0,female,52,15,yes,5,some college,1,5
+0,female,27,7,yes,2,high school,1,2
+0,female,27,7,yes,3,high school,1,4
+0,female,42,15,yes,2,some college,1,4
+0,female,42,15,yes,4,some college,5,4
+0,male,27,7,yes,4,some college,3,3
+0,male,27,7,yes,2,advanced degree,6,2
+0,female,42,15,yes,3,high school,3,3
+0,male,27,4,yes,3,college graduate,3,5
+0,female,27,7,yes,3,some college,1,4
+0,female,22,1.5,no,2,some college,4,5
+0,female,27,4,yes,4,some college,1,4
+0,female,22,4,no,4,some college,5,5
+0,female,22,1.5,no,2,college graduate,4,5
+0,male,47,15,no,4,some college,5,4
+0,male,37,10,yes,2,masters degree,6,2
+0,male,37,15,yes,3,some graduate school,5,4
+0,female,27,4,yes,2,college graduate,1,4
+3,male,27,1.5,no,3,masters degree,4,4
+3,female,27,4,yes,3,some graduate school,1,5
+7,male,37,15,yes,5,masters degree,6,2
+12,female,32,10,yes,3,some graduate school,5,2
+1,male,22,0.125,no,4,college graduate,5,5
+1,female,22,1.5,yes,2,some college,1,5
+12,male,37,15,yes,4,some college,5,2
+7,female,22,1.5,no,2,some college,3,4
+2,male,37,15,yes,2,masters degree,6,4
+3,female,32,15,yes,4,high school,3,2
+1,female,37,15,yes,4,some college,4,2
+7,female,42,15,yes,3,some graduate school,1,4
+12,female,42,15,yes,5,grad school,4,1
+12,male,37,10,yes,2,advanced degree,6,2
+12,female,32,15,yes,3,some college,1,2
+3,male,27,4,no,1,masters degree,6,5
+7,male,37,10,yes,2,masters degree,7,3
+7,female,27,4,no,3,some graduate school,5,5
+1,male,42,15,yes,4,college graduate,5,5
+1,female,47,15,yes,5,some college,4,5
+7,female,27,4,yes,3,masters degree,5,4
+1,female,27,7,yes,5,some college,1,4
+12,male,27,1.5,yes,3,some graduate school,5,4
+12,female,27,7,yes,4,some college,6,2
+3,female,42,15,yes,4,college graduate,5,4
+7,female,27,10,yes,4,high school,7,3
+1,male,27,1.5,no,2,masters degree,5,2
+1,male,32,4,no,4,advanced degree,6,4
+1,female,27,7,yes,3,some college,1,3
+3,female,32,10,yes,4,some college,1,4
+3,male,27,4,yes,2,masters degree,7,2
+1,female,17.5,0.75,no,5,some college,4,5
+1,female,32,10,yes,4,masters degree,1,5
+7,female,32,7,yes,2,some graduate school,6,4
+7,male,37,15,yes,2,advanced degree,6,4
+7,female,37,10,no,1,advanced degree,5,3
+12,female,32,10,yes,2,college graduate,5,5
+7,male,52,15,yes,2,advanced degree,6,4
+7,female,42,15,yes,1,high school,1,3
+1,male,52,15,yes,2,advanced degree,6,3
+2,male,37,15,yes,3,masters degree,6,5
+12,female,22,4,no,3,high school,3,4
+12,male,27,7,yes,1,masters degree,6,2
+1,male,27,4,yes,3,masters degree,5,5
+12,male,47,15,yes,4,some graduate school,6,5
+12,female,42,15,yes,4,high school,1,1
+7,male,27,4,no,3,some college,3,4
+7,female,32,7,yes,4,masters degree,4,5
+1,male,32,0.417,yes,3,high school,3,4
+3,male,47,15,yes,5,college graduate,5,4
+12,male,37,15,yes,2,advanced degree,5,4
+7,male,22,4,yes,2,some graduate school,6,4
+1,male,27,4,no,2,some college,4,5
+7,female,52,15,yes,5,college graduate,1,3
+1,male,27,4,no,3,some college,3,3
+1,female,27,10,yes,4,college graduate,1,4
+1,male,32,7,yes,3,some college,7,4
+7,male,32,7,yes,2,masters degree,4,1
+3,male,22,1.5,no,1,some college,3,2
+7,male,22,4,yes,3,masters degree,6,4
+7,male,42,15,yes,4,advanced degree,6,4
+2,female,57,15,yes,1,masters degree,5,4
+7,female,32,4,yes,3,masters degree,5,2
+1,male,27,4,yes,1,college graduate,4,4
+7,male,32,7,yes,4,college graduate,1,4
+2,male,57,15,yes,1,some graduate school,4,4
+7,female,42,15,yes,4,some college,5,2
+7,male,37,10,yes,1,masters degree,5,3
+3,male,42,15,yes,3,some graduate school,6,1
+1,female,52,15,yes,3,some college,4,4
+2,female,27,7,yes,3,some graduate school,5,3
+12,male,32,7,yes,2,high school,4,2
+1,male,22,4,no,4,some college,2,5
+3,male,27,7,yes,3,masters degree,6,4
+12,female,37,15,yes,1,masters degree,5,5
+7,female,32,15,yes,3,some graduate school,1,3
+7,female,27,7,no,2,some graduate school,5,5
+1,female,32,7,yes,3,some graduate school,5,3
+1,male,32,1.5,yes,2,some college,2,4
+12,female,42,15,yes,4,some college,1,2
+7,male,32,10,yes,3,some college,5,4
+7,male,37,4,yes,1,advanced degree,6,3
+1,female,27,4,yes,2,college graduate,5,3
+12,female,42,15,yes,3,some college,4,3
+1,male,27,10,yes,5,advanced degree,6,5
+12,male,37,10,yes,2,advanced degree,6,2
+12,female,27,7,yes,1,some college,3,3
+3,female,27,7,yes,4,high school,1,2
+3,male,32,10,yes,2,some college,4,4
+12,female,17.5,0.75,yes,2,high school,1,3
+12,female,32,15,yes,3,masters degree,5,4
+2,female,22,7,no,4,some college,4,3
+1,male,32,7,yes,4,advanced degree,6,5
+7,male,27,4,yes,2,masters degree,6,2
+1,female,22,1.5,yes,5,some college,5,3
+12,female,32,15,no,3,some graduate school,5,1
+12,female,42,15,yes,2,high school,1,2
+7,male,42,15,yes,3,advanced degree,5,4
+12,male,32,10,no,2,masters degree,4,2
+12,female,32,15,yes,3,grad school,1,1
+7,male,57,15,yes,5,advanced degree,4,5
+12,male,47,15,yes,4,advanced degree,6,4
+2,female,42,15,yes,2,some graduate school,6,3
+12,male,37,15,yes,3,some graduate school,6,3
+12,male,37,15,yes,5,some graduate school,5,2
+7,male,27,10,yes,2,advanced degree,6,4
+2,male,37,15,yes,2,college graduate,5,4
+12,female,32,15,yes,1,some college,5,2
+7,male,32,10,yes,3,some graduate school,6,3
+2,male,37,15,yes,4,masters degree,5,1
+7,female,27,1.5,no,2,some graduate school,5,5
+3,female,47,15,yes,2,some graduate school,5,2
+12,male,37,15,yes,2,some graduate school,5,4
+12,female,27,4,no,2,some college,5,5
+2,female,27,10,yes,4,some college,1,5
+1,female,22,4,yes,3,college graduate,1,3
+12,male,52,7,no,4,college graduate,5,5
+2,female,27,4,yes,1,college graduate,3,5
+7,female,37,15,yes,2,some graduate school,6,4
+2,female,27,4,no,1,some graduate school,3,1
+12,female,17.5,0.75,yes,2,high school,3,5
+7,female,32,15,yes,5,masters degree,5,4
+7,female,22,4,no,1,college graduate,3,5
+2,male,32,4,yes,4,masters degree,6,4
+1,female,22,1.5,yes,3,masters degree,5,2
+3,female,42,15,yes,2,some graduate school,5,4
+1,male,32,7,yes,4,college graduate,4,4
+12,male,37,15,no,3,some college,6,2
+1,male,42,15,yes,3,college graduate,6,3
+1,male,27,4,yes,1,masters degree,5,4
+2,male,37,15,yes,4,advanced degree,7,3
+7,male,37,15,yes,3,advanced degree,6,4
+3,male,22,1.5,no,2,high school,3,3
+3,male,32,4,yes,3,advanced degree,6,2
+2,male,32,15,yes,5,advanced degree,6,5
+12,female,52,15,yes,1,masters degree,5,5
+12,male,47,15,no,1,masters degree,6,5
+3,female,32,15,yes,4,college graduate,4,4
+7,female,32,15,yes,3,some college,3,2
+7,female,27,7,yes,4,college graduate,1,2
+12,male,42,15,yes,3,masters degree,6,2
+7,female,42,15,yes,2,some college,3,2
+12,male,27,7,yes,2,some graduate school,5,4
+3,male,32,10,yes,4,some college,4,3
+7,male,47,15,yes,3,college graduate,4,2
+1,male,22,1.5,yes,1,high school,2,5
+7,female,32,10,yes,2,masters degree,5,4
+2,male,32,10,yes,2,some graduate school,6,5
+2,male,22,7,yes,3,masters degree,6,2
+1,female,32,15,yes,3,some college,1,5

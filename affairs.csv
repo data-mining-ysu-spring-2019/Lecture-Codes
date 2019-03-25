@@ -1,4 +1,4 @@
-affairs,gender,age,yearsmarried,children,religiousness,education,occupation,rating
+affairs,gender,age,yearmarried,children,religiousness,education,occupation,rating
 0,male,37,10,no,3,masters degree,7,4
 0,female,27,4,no,4,some college,6,4
 0,female,32,15,yes,1,high school,1,4

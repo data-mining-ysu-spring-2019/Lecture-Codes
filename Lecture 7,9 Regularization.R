@@ -1,3 +1,6 @@
+https://www4.stat.ncsu.edu/~post/josh/LASSO_Ridge_Elastic_Net_-_Examples.html
+https://statquest.org/2018/10/23/statquest-ridge-lasso-and-elastic-net-regression-in-r/#code 
+https://www.kaggle.com/ssudeep/red-wine-quality-prediction-using-ridge-regression
 
 x1 <- c(1,2,3)
 x2 <- c(2,4,6)

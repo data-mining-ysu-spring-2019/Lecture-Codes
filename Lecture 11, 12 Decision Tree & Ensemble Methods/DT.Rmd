@@ -1,0 +1,209 @@
+---
+title: "Decision tree"
+author: "LZ"
+date: "April 22, 2019"
+output: pdf_document
+---
+A classification tree is a decision tree that performs a classification (vs regression) task.
+
+Supervised or not?
+
+Terminology
+
+1. Root Node 
+2. Child or Internal Node
+3. Leaf Node, terminal node  (every leaf node is associated with the predicted level)
+4. derive rule
+5. Greedy algorithm
+6. top-down
+7. Repeatedly split the records into two parts so as to achieve maximum homogeneity/purity within the new parts, or decrease the impurity.
+8. Overfiting - pruning
+
+
+Growing the tree
+1. Features to choose
+2. Condition to split
+3. Criteria to stop
+4. Pruning
+
+ * CART (Breiman et al. 1984)
+ * CHAID (Gordon V. Kass 1980)
+
+```{r}
+age<- c(18,17,19,27,23,26,16,18)
+univ <- c("AUA", "YSU", "other","AUA", "YSU", "other","YSU", "YSU" )
+class <- c(0,1,0,1,0,0,0,1)
+gender <- c("f", "m","f", "m","m","m","m","f")
+df <- data.frame(age, univ,class, gender)
+library(ggplot2)
+ggplot(df, aes(x=age, y=univ, color=factor(class)))+geom_point(size=5)
+
+# age <=22
+# age <=25
+
+ggplot(df, aes(x=age, y=univ, color=factor(class)))+geom_point(size=5)+
+ geom_vline(xintercept=17, size=1.25)+
+ geom_vline(xintercept=25, size=1.25)
+
+table(class)
+table(class, age)
+
+```
+
+You will use the rpart package to fit the decision tree and the rpart.plot package to visualize the tree.
+
+rpart means recursive partitioning
+
+```{r}
+library(rpart)
+library(rpart.plot)
+library(caret)
+library(Stat2Data)
+```
+
+```{r}
+credit<-read.csv("credit.csv")
+library(caret)
+index<-createDataPartition(credit$default, p=0.8, list=F)
+Train<-credit[index,]
+Test<-credit[-index,]
+```
+
+\pagebreak
+
+```{r}
+model_c <- rpart(formula = default~., 
+  data = Train,
+  method = "class"
+  )
+```
+
+```{r}
+prp(model_c)
+prp(model_c, type = 1)
+prp(model_c, type=2, extra=2, main  = "DT")
+library(rattle)
+asRules(model_c)
+fancyRpartPlot(model_c)
+```
+
+\pagebreak
+
+Make predictions
+
+```{r}
+pred_class<-predict(model_c, Test, type="class")
+pred_class[1:20]
+```
+
+\pagebreak
+
+```{r}
+confusionMatrix(pred_class, Test$default, positive="Yes")
+```
+
+\pagebreak
+
+Get the probabilities and ROC curve
+
+```{r}
+pred_prob_c<-predict( object = model_c,
+              newdata = Test,
+              type = "class")
+head(pred_prob_c)
+
+pred_prob<-predict( object = model_c,
+              newdata = Test,
+              type = "prob")
+pred_prob[1:10,]
+
+confusionMatrix(data = pred_prob_c,       
+                reference = Test$default)  
+```
+
+\pagebreak
+
+```{r}
+library(ROCR)
+P_Test <- prediction(pred_prob[,2], Test$default) 
+perf <- performance(P_Test,"tpr","fpr")
+plot(perf)
+```
+
+```{r}
+performance(P_Test,"auc")@y.values
+```
+
+
+ * **minsplit:** the minimum number of observations that must exist in a node in order for a split to be attempted 
+ * **minbucket:** the minmum number of observations in any terminal node
+
+
+Advantages
+
+ * Simple to understand, interpret, visualize
+ * Can handle both numerical and categorical features (inputs)  * No normalization
+ * Can handle missing data elegantly
+ * Can model non-linearity in the data
+ * Can be trained quickly on large datasets
+
+Disadvantages
+
+ * Large trees can be hard to interpret
+* Trees have high variance, which causes model performance to be poor, trees overfit easily
+
+
+
+Use of splitting criterion in trees
+More homogeneous = More Pure
+Impurity Measure - Gini Index
+Entropy
+Misclassification rate
+Information gain
+
+Regression tree
+continuous + integer
+
+```{r}
+model1<- rpart(formula = income~., data = Train)
+model1
+# 561 total observations,
+# the SSE = 815539.9
+# The average y = 45.28342
+mean(Train$income)
+```
+
+```{r}
+rpart.plot(model1)
+#It will show the percentage of data that fall to that node and the average income for that branch. 
+# We have 8 internal nodes and  9 terminal node
+# This tree is partitioning on 5 variables to produce its model. However, there are 9-1 variables in ames_train. So what happened?
+```
+
+```{r}
+#Behind the scenes rpart is automatically applying a range of cost complexity (α values to prune the tree. To compare the error for each α value, rpart performs a 10-fold cross validation so that the error associated with a given α  value is computed on the hold-out validation data. 
+#plotcp(model1)
+
+```
+
+Chaid
+
+```{r}
+library(CHAID)
+# it works only with factors
+# lets create one factor variable
+summary(credit$debtinc)
+credit$diratiorisky <- as.factor(ifelse(credit$debtinc > 10, "Yes", "No"))
+chisq.test(credit$default, credit$ed)
+chisq.test(credit$default, credit$diratiorisky)
+model2<-chaid(default~ed+diratiorisky, data = credit)
+print(model2)
+plot(model2,  gp=gpar(fontsize = 8))
+```
+
+
+
+
+method = "anova", "class"
+contol = optional parameters for controlin the tree growth
+
